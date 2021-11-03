@@ -63,14 +63,15 @@ h2 {
 }
 
 .navigation {
-  height: 60px;
+  min-height: 60px;
   display: flex;
   align-items: stretch;
+  flex-wrap: wrap;
 }
 
 .navigation a { 
   padding: 5px 1rem;
-  height: 100%;
+  height: 60px;
   display: flex;
   align-items: center;
   transition: 0.5s;
@@ -147,6 +148,10 @@ h2 {
 .exp p {
   margin-bottom: 1rem;
   font-size: 18px;
+}
+
+.exp h3 {
+  color: #590d23;
 }
 
 .footer {
